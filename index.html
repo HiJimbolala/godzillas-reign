@@ -11,22 +11,41 @@
     
     <script type="module" src="/src/main.js"></script>
 
-<p id="display">
-     0 Destruction caused
-</p>
+<div class="flex place-content-evenly">
 
-<button id="clicker">
-    <img  class="h-96 bg-purple-300 rounded-2xl" src="src/assets/Godzilla_1975_front.webp" alt="Godzilla Showa Era">
+
+
+<button id="clicker" class="bg-black/50 rounded-2xl">
+  <p id="display">
+     0 Kaiju's Defeated
+  </p>  
+  <img class="w-96" src="src/assets/Godzilla_1975_front.webp" alt="Godzilla Showa Era">
 </button>
 
-<p>
+<div class=" bg-black/50 w-92 flex flex-col">
+
+<p class="text-center">
   Store
 </p>
 
-<button id="buy" class="bg-black/50">
-  <p id="displayTwo">0 Atomic Breath Enhancer</p>
-  Cost: 25 Destruction caused  
+<button id="upgradeOne" class="bg-cyan-300/50">  
+  <p id="upgradeOneCount">0 Atomic Breath Enhancer</p>
+  <p>Cost: 25 Destruction caused</p>
 </button>
+<br>
+<button id="upgradeTwo" class="bg-cyan-300/50">  
+  <p id="upgradeTwoCount">0 Physical Strength</p>
+  <p>Cost: 100 Destruction caused</p>
+</button>
+<br>
+<button id="upgradeThree" class="bg-cyan-300/50">
+  <p id="upgradeThreeCount">0 Regenerative cells</p>
+  <p>Cost: 1000 Destruction caused</p>
+</button>
+<br>
+</div>
+
+</div>
 
   </body>
 </html>
