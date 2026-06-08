@@ -26,7 +26,7 @@ const backgroundMusic = new Howl({
     src: [backgroundMusicSrc], 
     autoplay: true,
     loop: true,
-    volume: 0.1   
+    volume: 0.1,
 })
 
 const formatter = new Intl.NumberFormat('en-US', {
